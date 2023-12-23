@@ -1,0 +1,20 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and generated files
+logs/
+*.log
+*.pid
+
+# Ignore environment variables file
+.env
+
+# Ignore build output
+build/
+dist/
+
+*.pem
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
